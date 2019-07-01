@@ -6,34 +6,6 @@ from urllib.request import urlopen
 import urllib
 import sys
 
-# Dependencies
-# pip install opencv-python
-# or
-# git clone https://github.com/opencv/opencv.git
-
-# is recommended to install it in new enviroment to avoid instalation errors
-
-# The folfer "data" must be to same level where the script is executed
-
-
-
-# This script add gender and age fields to each json node list processing your url image which key must be specified, if the image do not contain faces your node is not included
-
-# To execute the script is necessary to specify the input json name file, your field node key of image choose to process and the output json name file 
-# python addGenderAndAgeFields.py inputJsonFilePath fieldImageJsonKey outputJsonFilePath 
-
-# Example
-# python addGenderAndAgeFields.py lastoutputjson.json publicationImageUrl outPutDatass.json
-
-# You can change the input json file by other generated in the phase one
-
-# origin documentation
-# https://stackabuse.com/reading-and-writing-json-to-a-file-in-python/
-# https://github.com/raunaqness/Gender-and-Age-Detection-OpenCV-Caffe
-# https://github.com/sebastian-lapuschkin/understanding-age-gender-deep-learning-models
-
-# The results are sometimes not successful
-
 
 # get a cv2 image object from a image web url specified
 def getCv2ImageFromUrl(imageUrl):
