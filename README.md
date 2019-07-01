@@ -8,8 +8,6 @@ or
 
 git clone https://github.com/opencv/opencv.git
 
-Is **recommended** to install it in new enviroment to avoid instalation errors
-
 ## Detail
 
 The folfer "data" must be to same level where the script is executed
@@ -19,8 +17,8 @@ This script add gender and age fields to each json node list processing your url
 ## Execute command
 
 To execute the script is necessary to specify three arguments:
-1. She input json name file
-2. Your field node key of image choose to process
+1. The input json name file
+2. Your field node key of image chosen to process
 3. The output json name file 
 
 python addGenderAndAgeFields.py inputJsonFilePath fieldImageJsonKey outputJsonFilePath 
