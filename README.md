@@ -4,13 +4,7 @@
 
 pip install opencv-python
 
-or
-
-git clone https://github.com/opencv/opencv.git
-
 ## Detail
-
-The folfer "data" must be to same level where the script is executed
 
 This script add gender and age fields to each json node list processing your url image which key must be specified, if the image do not contain faces your node is not included
 
@@ -32,4 +26,3 @@ You can change the input json file by other generated in the phase one
 ### Origin documentation
 https://github.com/raunaqness/Gender-and-Age-Detection-OpenCV-Caffe
 
-The result of predictions are sometimes not successful
