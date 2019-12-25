@@ -20,9 +20,4 @@ python addGenderAndAgeFields.py inputJsonFilePath fieldImageJsonKey outputJsonFi
 ## Example
 python addGenderAndAgeFields.py lastoutputjson.json publicationImageUrl outPutDatass.json
 
-## More
-You can change the input json file by other generated in the phase one
-
-### Origin documentation
-https://github.com/raunaqness/Gender-and-Age-Detection-OpenCV-Caffe
 
